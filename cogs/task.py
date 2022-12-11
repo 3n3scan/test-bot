@@ -16,7 +16,7 @@ class Task(commands.Cog):
         if self.task.current_loop == 0:
             return
 
-        channel = await self.bot.fetch_channel(123456789) ## Channel ID
+        channel = await self.bot.fetch_channel(947094736651575316) ## Channel ID
         await channel.send("✅ 〢 Bot is running!")
 
     @tasks.loop(
