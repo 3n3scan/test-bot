@@ -34,12 +34,14 @@ class Button(commands.Cog):
             description=f"Aktuelle Version: 1.2",
             color=discord.Color.orange()
         )
-        embed.add_field(name="👨🏻‍💻 • Developer:", value= "3n3scan#6908", inline=False)
+        embed.add_field(name="👨🏻‍💻 • Developer:", value= "3n3scan#6908", inline=True)
         embed.add_field(name="🤖 • Prefix:", value= "/ (slash_commands)", inline=False)
         embed.add_field(name="🌐 • Debug Server:", value= "3n3scan", inline=False)
         embed.add_field(name="💠 • Host:", value= "Vinorex", inline=False)
+        embed.add_field(name="ℹ • Language:", value= "German", inline=False)
         embed.add_field(name="✅ • Bot Info:", value= "This Bot is Global and inviteable", inline=False)
-        embed.add_field(name="✅ • Source Code:", value= "https://github.com/3n3scan/test-bot", inline=False)
+        embed.add_field(name="🔰 • Source Code:", value= "https://github.com/3n3scan/test-bot", inline=False)
+
 
 
         embed.set_author(name="3n3scan", icon_url="https://cdn.discordapp.com/avatars/773514870409789471/c68359d51206ed6dbdfb691eb898b97c.png?size=1024")
