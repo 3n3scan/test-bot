@@ -15,6 +15,7 @@ TOKEN = DEIN_TOKEN
 ```
 3. Installiere die Python Packages aus der `requirements.txt` Datei
 4. Starte die `start.bat` Datei um den Bot zu starten.
+    4.1. oder auch mit deiner Coding Software (PyCharm/VS Code) mit `py main.py`.
 ```
 Username: root
 Password: root
